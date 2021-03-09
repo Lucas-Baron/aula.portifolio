@@ -6,4 +6,29 @@
 
 body{
     background-color: #282a36;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header{
+    padding: 32px;
+    border-bottom: 1px solid #333;
+    background: rgba(0, 0, 0, 0.28);
+}
+
+header nav{
+    text-align: center;
+}
+
+header nav a{
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header nav a:hover{
+    color: #50fa7b;
+    transition: color 200ms;
 }
