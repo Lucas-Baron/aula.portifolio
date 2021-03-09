@@ -127,3 +127,35 @@ footer{
     border-radius: 20px;
     text-align: center;
 }
+
+/*== MODAL ==*/
+.modal_overlay{
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.modal{
+    background-color: white;
+    width: 90%;
+    height: 90%;
+    margin: 5vh auto;
+    position: relative;
+}
+
+.modal .close_modal{
+    color: black;
+    position: absolute;
+    right: 18px;
+    top: 18px;
+    cursor: pointer;
+}
+
+/*== Modal active ==*/
+.modal_overlay.active{
+    opacity: 1;
+}
