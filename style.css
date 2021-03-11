@@ -102,6 +102,7 @@ footer{
 
 .card{
     background-color: var(--colr-rocket);
+    cursor: pointer;
 }
 
 .card-image-container img{
@@ -158,4 +159,5 @@ footer{
 /*== Modal active ==*/
 .modal_overlay.active{
     opacity: 1;
+    visibility: visible;
 }
