@@ -3,7 +3,8 @@ module.exports = [
         id: "qtmZSjhVshA",
         title: "Adonai Pinheiro, Líder Técnico Mobile na Smiles",
         duration: "57 min",
-        price: "Free"
+        price: "Free",
+        featured: true
     },
 
     {
@@ -31,7 +32,8 @@ module.exports = [
         id: "SrY8qV6UJ1M",
         title: "Deploy de apps ReactJS para Google Cloud Storage (part. Guilherme Pellizzetti) | Masterclass #17",
         duration: "48 min",
-        price: "Free"
+        price: "Free",
+        featured:true
     },
 
     {
